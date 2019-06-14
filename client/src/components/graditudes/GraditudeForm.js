@@ -2,7 +2,7 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form'
 
 
-class StreamForm extends React.Component{
+class GraditudeForm extends React.Component{
 
   renderError({error, touched}){
     if (touched && error) {
@@ -57,6 +57,6 @@ const validate = (formValues) => {
 
 
 export default reduxForm({
-  form: 'streamForm',
+  form: 'graditudeForm',
   validate
-})(StreamForm);
+})(GraditudeForm);

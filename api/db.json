@@ -1,15 +1,3 @@
 {
-  "streams": [
-    {
-      "title": "May Stream!",
-      "description": "A stream that has flowers :)",
-      "userId": "100138476708971860093",
-      "id": 3
-    },
-    {
-      "title": "The Hot New Stream!",
-      "description": "It's ok",
-      "id": 5
-    }
-  ]
+  "graditudes": []
 }
